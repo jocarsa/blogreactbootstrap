@@ -1,0 +1,26 @@
+[
+    {
+        "titulo":"Este es el articulo 1",
+        "contenido":"Este es el contenido del articulo 1",
+        "categoria":"HTML",
+        "fecha":"2024-07-01"
+    },
+    {
+        "titulo":"Este es el articulo 2",
+        "contenido":"Este es el contenido del articulo 2",
+        "categoria":"PHP",
+        "fecha":"2024-07-02"
+    },
+    {
+        "titulo":"Este es el articulo 3",
+        "contenido":"Este es el contenido del articulo 3",
+        "categoria":"PHP",
+        "fecha":"2024-07-02"
+    },
+    {
+        "titulo":"Este es el articulo 4",
+        "contenido":"Este es el contenido del articulo 4",
+        "categoria":"PHP",
+        "fecha":"2024-07-02"
+    }
+]

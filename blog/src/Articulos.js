@@ -1,31 +1,18 @@
-var articulos = [
-        {
-            "titulo":"Este es el articulo 1",
-            "contenido":"Este es el contenido del articulo 1",
-            "categoria":"HTML",
-            "fecha":"2024-07-01"
-        },
-        {
-            "titulo":"Este es el articulo 2",
-            "contenido":"Este es el contenido del articulo 2",
-            "categoria":"PHP",
-            "fecha":"2024-07-02"
-        },
-        {
-            "titulo":"Este es el articulo 3",
-            "contenido":"Este es el contenido del articulo 3",
-            "categoria":"PHP",
-            "fecha":"2024-07-02"
-        },
-        {
-            "titulo":"Este es el articulo 4",
-            "contenido":"Este es el contenido del articulo 4",
-            "categoria":"PHP",
-            "fecha":"2024-07-02"
-        }
-    ]
+import React, { useState, useEffect } from 'react';
+
+
 
 function Articulos() {
+    
+    const [articulos, setArticulos] = useState([]);
+
+    useEffect(() => {
+        fetch("https://jocarsa.com/noticias.php")
+            .then(response => response.json())
+            .then(data => setArticulos(data))
+            .catch(error => console.error('Error fetching data:', error));
+    }, []);
+    
     const mis_articulos = articulos.map(articulo => 
         <div class="col-md-6">
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
