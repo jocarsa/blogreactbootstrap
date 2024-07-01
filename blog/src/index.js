@@ -4,15 +4,23 @@ import './index.css';
 import App from './App';
 import Menu from './Menu';
 import Cabecera from './Cabecera';
+import Articulos from './Articulos';
+import BannerPrincipal from './BannerPrincipal';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('raiz'));
 root.render(
   <React.StrictMode>
-    <div class="container">
+    <div className="container">
         <Cabecera /> 
         <Menu /> 
     </div>
+    <main className="container">
+        <BannerPrincipal />
+    <div class="row mb-2">
+        <Articulos />
+    </div>
+    </main>
   </React.StrictMode>
 );
 
