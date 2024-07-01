@@ -8,7 +8,7 @@ function Articulo({titulo,contenido,fecha,categoria}){
               <div class="mb-1 text-body-secondary">{fecha}</div>
               <p class="card-text mb-auto">{contenido}</p>
               <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                Continue reading
+                Leer más
                 <svg class="bi"></svg>
               </a>
             </div>
