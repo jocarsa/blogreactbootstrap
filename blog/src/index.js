@@ -17,9 +17,9 @@ root.render(
     </div>
     <main className="container">
         <BannerPrincipal />
-    <div class="row mb-2">
+        
         <Articulos />
-    </div>
+   
     </main>
   </React.StrictMode>
 );
