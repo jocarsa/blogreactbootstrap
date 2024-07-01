@@ -9,8 +9,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('raiz'));
 root.render(
   <React.StrictMode>
-    <Cabecera /> 
-    <Menu /> 
+    <div class="container">
+        <Cabecera /> 
+        <Menu /> 
+    </div>
   </React.StrictMode>
 );
 
