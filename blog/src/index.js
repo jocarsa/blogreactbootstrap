@@ -5,6 +5,7 @@ import App from './App';
 import Menu from './Menu';
 import Cabecera from './Cabecera';
 import Articulos from './Articulos';
+import Piedepagina from './Piedepagina';
 import BannerPrincipal from './BannerPrincipal';
 import reportWebVitals from './reportWebVitals';
 
@@ -17,10 +18,9 @@ root.render(
     </div>
     <main className="container">
         <BannerPrincipal />
-        
         <Articulos />
-   
     </main>
+    <Piedepagina />
   </React.StrictMode>
 );
 
