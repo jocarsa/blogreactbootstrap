@@ -6,7 +6,7 @@ function Cabecera() {
         <a class="link-secondary" href="#">Subscribe</a>
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Large</a>
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Blog React</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="link-secondary" href="#" aria-label="Search">
